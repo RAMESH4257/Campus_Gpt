@@ -32,21 +32,6 @@ ________________________________________
 Request Flow:
 User → Frontend → Backend → Dialogflow CX → Gemini / GCS → Response → User
 ________________________________________
-## My Role: Dialogflow CX Agent Design & Integration
-Role Summary
-I was responsible for designing, training, and integrating the Dialogflow CX conversational agent, which is the core component of Campus GPT.
-What I Did
-•	Designed multiple conversation flows for different campus topics such as placements, events, facilities, and academics.
-•	Created intents with realistic training phrases so the chatbot can understand different ways users ask the same question.
-•	Defined entities (departments, buildings, event types) to extract structured information from user queries.
-•	Integrated Dialogflow CX with a backend webhook to fetch data from Google Cloud Storage and generate intelligent answers using the Gemini API.
-•	Tested and improved the chatbot using Dialogflow CX’s simulator by refining intents, flows, and fallback handling.
-Tools & Technologies Used
-•	Dialogflow CX
-•	Google Cloud Platform (IAM, GCS)
-•	Gemini API
-•	Node.js backend (webhook integration)
-________________________________________
 ## Project Structure (Simplified)
 campus-gpt/
 ├─ frontend/        # Chat UI (HTML, CSS, JavaScript)
