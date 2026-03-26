@@ -1,4 +1,6 @@
  Campus GPT — AI-Powered Campus Assistant
+
+ 
  Project Overview
 Campus GPT is an AI-powered virtual campus assistant designed to answer questions related to college facilities, events, placements, departments, and academic processes.
 The system integrates Dialogflow CX, Gemini API, and Google Cloud Storage (GCS) to deliver accurate, secure, and context-aware responses through a web-based chatbot interface.
